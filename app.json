@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1ba597f3-2b11-422c-978a-e134ecdf9c2b"
+      }
     }
   }
 }
